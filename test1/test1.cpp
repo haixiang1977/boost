@@ -45,6 +45,11 @@ void sig_usr_handler(const error_code& ec, int signal_number) {
                 std::cout << "sig_usr_handler recv = " << signal_number << std::
 endl;
         }
+
+	// attach the handler to signal again for repeat
+	// sig.async_wait(sig_int_handler);
+        // sig.async_wait(sig_usr_handler);
+
 	return;
 }
 
