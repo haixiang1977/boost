@@ -1,4 +1,4 @@
-// g++ -std=c++11 test3.cpp -o test3.out -lpthread
+// g++ -std=c++11 test3_server.cpp -o test3_server.out -lpthread
 // network block handler example with asio
 // https://www.zhihu.com/question/42159518
 // https://segmentfault.com/a/1190000007225464
